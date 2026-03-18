@@ -28,7 +28,7 @@ MOVE_UP = '\033[F'
 
 # Configuration
 HOST = '0.0.0.0'
-PORT = 50000
+PORT = int(input("enter port  "))
 BUFFER_SIZE = 65536
 SAVE_DIR = 'received_files'
 
